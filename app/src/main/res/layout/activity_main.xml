@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.myfragmentdemo.view.ClickControlledSpinner
+        android:id="@+id/spv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:theme="@style/SpinnerStyle"
+        android:visibility="gone"></com.myfragmentdemo.view.ClickControlledSpinner>
+
+    <com.myfragmentdemo.view.MCircleView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/circle_v"
+        app:circle_corlor="@color/colorPrimaryDark"
+        android:background="#c1c1c1" />
+</RelativeLayout>
